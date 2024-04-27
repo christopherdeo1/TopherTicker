@@ -1,0 +1,13 @@
+img {
+    height: 8rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.title {
+    color: red;
+}

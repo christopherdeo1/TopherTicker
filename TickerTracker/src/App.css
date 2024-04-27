@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 15em;
+  /* padding: 1.5em; */
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+#logins {
+  display: flex;
+  justify-content: space-evenly
+}
+
+#loginBtn {
+  background-color: yellow;
+  color: black;
+  border: 2px, red;
+}
+
+.links {
+  color: blue;
+  text-decoration: underline;
+}
