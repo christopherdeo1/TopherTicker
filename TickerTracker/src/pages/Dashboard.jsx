@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from '../components/Header'
-import '..css/Dashboard.css'
+// import '.css/Dashboard.css'
 import { DataGrid } from '@mui/x-data-grid';
 
 
 const Dashboard = () => {
-    const columns: GridColDef[] = [
+    const columns = [
         { field: 'date', headerName: 'Date', width: 50 },
         { field: 'time', headerName: 'Time', width: 50 },
         { field: 'systolic', headerName: 'Systolic', width: 50 },
